@@ -1,2 +1,2 @@
 # ReusableAppFramework
-a reusable app framwork to custom app.
+a reusable app server framwork to custom app.
