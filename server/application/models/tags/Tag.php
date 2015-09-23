@@ -4,9 +4,9 @@
 */
 define('DS', DIRECTORY_SEPARATOR);
 define('freetagpath', realpath(dirname(__FILE__).DS.'freetag'.DS));
-require './ITag.php';
+require './TagAble.php';
 require freetagpath.'/freetag.class.php';
-class Tag implements ITag{
+class Tag implements TagAble{
 var $freetag_instance;
 function Tag(){
 $this->freetag_instance=new freetag();
