@@ -21,7 +21,7 @@ require_once 'Zend/Application.php';
 // Create application, bootstrap, and run
 $application = new Zend_Application(
     APPLICATION_ENV,
-    APPLICATION_PATH . '/configs/application.ini'
+    APPLICATION_PATH . '/configs/zendapplication.ini'
 );
 
 //自加 导入配置文件连接数据库
